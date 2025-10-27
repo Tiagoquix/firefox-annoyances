@@ -5,6 +5,9 @@ I find them annoying, but there are many inconsistent recommendations around the
 
 What is useless/bloat is subjective, but this is my personal list, and I think it could be of help for more people.
 
+This project is intended to be simple and not a big general template; it's more of an additional simple thing to already existing projects. As long as Mozilla doesn't add more annoyances, this project should have a low count of preferences changes.__
+I recommend you to stick to vanilla Firefox and apply custom prefs on top of it instead of using forks such as LibreWolf.
+
 # How to use
 This .js can be used as a standalone file, but I made it for personal use and I'd recommend you to use it in conjuction with [Arkenfox's user.js](https://github.com/arkenfox/user.js). It's a great template, and things that are covered there won't be covered here.
 
