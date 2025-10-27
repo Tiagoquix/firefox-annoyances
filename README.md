@@ -1,5 +1,5 @@
 # Firefox Annoyances
-Mozilla Firefox is a great browser. But Mozilla keeps introducing useless features in their browser in order to keep up with competition. As of 27 October 2025, a great recent example would be the new Machine Learning / Artificial Intelligence features.
+Mozilla Firefox is a great browser. But Mozilla keeps introducing useless features in their browser in order to "keep up" with competition. As of 27 October 2025, a great recent example would be the new Machine Learning / Artificial Intelligence features.
 
 I find them annoying, but there are many inconsistent recommendations around the internet to disable them in `about:config`. This repository shall serve as a centralized way for users to contribute new preferences as a quick way for people to use in their `user.js`.
 
