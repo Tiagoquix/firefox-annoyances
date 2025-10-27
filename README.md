@@ -29,7 +29,8 @@ Contributions, criticsm and suggestions are welcome! Feel free to open issues/PR
 //
 // For Booleans and Numbers, this syntax should be used:
 user_pref("preference.name", VALUE);
-// Where VALUE is either true/false/a number. It should not be in quotes, unless the preference accepts multiple VALUEs.
+// Where VALUE is either true/false/a number.
+// It should not be in quotes, unless the preference accepts multiple VALUEs.
 //
 // For Strings, this syntax should be used:
 user_pref("preference.name", "STRING");
