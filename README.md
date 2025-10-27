@@ -16,6 +16,8 @@ To use this as a standalone thing, you can download the `annoyances.js` file, in
 
 To use it in conjuction with Arkenfox, copy the entirety of the `annoyances.js` contents and append them to your `user-overrides.js` file.
 
+Contributions, criticsm and suggestions are welcome! Feel free to open issues/PRs to discuss additions, changes and removals. [But try to keep it simple, stupid!](https://en.wikipedia.org/wiki/KISS_principle)
+
 # Syntax explanation
 ```javascript
 // Syntax explanation:
