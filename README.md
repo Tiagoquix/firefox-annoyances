@@ -12,6 +12,24 @@ To use this as a standalone thing, you can download the `annoyances.js` file, in
 
 To use it in conjuction with Arkenfox, copy the entirety of the `annoyances.js` contents and append them to your `user-overrides.js` file.
 
+# Syntax explanation
+```javascript
+// Syntax explanation:
+// We have three options: boolean, number and string
+//
+// Boolean: "true" or "false"
+// Number: 1, 2, 3
+// String is a specific text: "www.example.com"
+//
+// For Booleans and Numbers, this syntax should be used:
+user_pref("preference.name", VALUE);
+// Where VALUE is either true/false/a number. It should not be in quotes, unless the preference accepts multiple VALUEs.
+//
+// For Strings, this syntax should be used:
+user_pref("preference.name", "STRING");
+// Where STRING must be in quotes
+```
+
 # License
 This project is licensed under the UNLICENSE. If you contribute to it, you agree to its license. Basically, do whatever you want, it's public domain, no need for attribution/copyright.
 
