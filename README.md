@@ -5,7 +5,8 @@ I find them annoying, but there are many inconsistent recommendations around the
 
 What is useless/bloat is subjective, but this is my personal list, and I think it could be of help for more people.
 
-This project is intended to be simple and not a big general template; it's more of an additional simple thing to already existing projects. As long as Mozilla doesn't add more annoyances, this project should have a low count of preferences changes.  
+This project is intended to be simple and not a big general template; it's more of an additional simple thing to already existing projects. As long as Mozilla doesn't add more annoyances, this project should have a low count of preferences changes.
+
 I recommend you to stick to vanilla Firefox and apply custom prefs on top of it instead of using forks such as LibreWolf.
 
 # How to use
