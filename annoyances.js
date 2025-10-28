@@ -97,11 +97,10 @@ user_pref("lightweightThemes.getMoreURL", "");
 // ==================================================================================================================
 // Force URLs to be visually always completely shown and don't hide anything from them
 // Forces padlock (certificates) and HTTPS text to be shown and prefer normal URLs rather than search terms
-// Search terms are already disabled by Arkenfox, but they are here for completeness
+// Arkenfox foces Search Terms OFF and enables network.IDN_show_punycode, so they are not included here.
 // ==================================================================================================================
 user_pref("browser.urlbar.trimHttps", false);
 user_pref("browser.urlbar.trimURLs", false);
-user_pref("browser.urlbar.showSearchTerms.enabled", false);
 
 // ==================================================================================================================
 // Disable ALT key from opening the menu bar (File, Edit etc. actions)
