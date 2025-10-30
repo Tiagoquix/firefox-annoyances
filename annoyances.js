@@ -42,6 +42,13 @@ user_pref("browser.urlbar.quicksuggest.mlEnabled", false);
 // Disable SemanticHistory search. tor-browser#44045.
 user_pref("places.semanticHistory.featureGate", false);
 
+// "Ask an AI Chatbot" context menu item
+// It should be disabled by the above preference, but there seems to be a regression
+// introduced in Firefox 140 where it does not to that, so we have to use an additional
+// preference to get rid of it.
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1994785
+user_pref("browser.ml.chat.page", false);
+
 // ==================================================================================================================
 // Disable various promotions to Mozilla's own services such as:
 // Firefox Mobile app / Mozilla VPN / Mozilla Focus etc.
