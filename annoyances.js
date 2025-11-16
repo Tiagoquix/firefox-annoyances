@@ -1,6 +1,18 @@
+/******
+ *    name: Tiagoquix's Firefox Annoyances
+ *    date: 16 November 2025
+ * version: 145
+ *    url:  https://github.com/Tiagoquix/firefox-annoyances [repo]
+ * license: Unlicense: https://github.com/Tiagoquix/firefox-annoyances/blob/main/LICENSE
+*******/
+
 // ==================================================================================================================
 // Disable Machine Learning / Artificial Intelligence features
 // ==================================================================================================================
+
+// -------------------------------------------------------------
+// Preferences from Tor Browser
+// -------------------------------------------------------------
 
 // ML components. See tor-browser#44045.
 
@@ -42,10 +54,11 @@ user_pref("browser.urlbar.quicksuggest.mlEnabled", false);
 // Disable SemanticHistory search. tor-browser#44045.
 user_pref("places.semanticHistory.featureGate", false);
 
+// -------------------------------------------------------------
+// Preferences from Firefox Annoyances
+// -------------------------------------------------------------
+
 // "Ask an AI Chatbot" context menu item
-// It should be disabled by the above preference, but there seems to be a regression
-// introduced in Firefox 140 where it does not to that, so we have to use an additional
-// preference to get rid of it.
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1994785
 user_pref("browser.ml.chat.page", false);
 
@@ -78,4 +91,5 @@ user_pref("identity.sendtabpromo.url", "");
 user_pref("browser.preferences.moreFromMozilla", false);
 
 // Disable link to get more themes in Themes section
+// Professionals use the default light/dark themes 8)
 user_pref("lightweightThemes.getMoreURL", "");
