@@ -22,7 +22,7 @@ To use it in conjuction with Arkenfox, append the contents of `annoyances.js` to
 Contributions, criticsm and suggestions are welcome! Feel free to open issues or pull requests to discuss additions, changes and removals.
 
 # Additional recommendations
-These recommendations let you disable more parts of Machine Learning in the browser. They cannot be included in the project due to technical complexity and incompatibility, but you can do them manually.
+These recommendations let you disable more parts of Machine Learning in the browser. They cannot be included in the project due to technical complexity, but you can do them manually.
 
 - Go to Firefox settings -> Search (or type `about:preferences#search` in the address bar).
   - Remove Perplexity as a search provider. Perplexity is an AI-powered search engine: https://blog.mozilla.org/en/firefox/firefox-144/
