@@ -31,7 +31,7 @@ These recommendations let you disable more parts of Machine Learning in the brow
       - Search engine name: `DuckDuckGo (no AI)`
       - URL with %s: `https://noai.duckduckgo.com/?q=%s`
       - Keyword: `@duckduckgo, @ddg, @ddgnoai`
-    - Then, scroll up and set it as your default search engine. Be sure to untick the blue check mark of normal DDG to avoid confusion (you can also remove normal DDG completely).
+    - Then, scroll up and set it as your default search engine. If you have normal DuckDuckGo as a search engine present on the list, be sure to untick its blue check mark to avoid confusion (you can also remove normal DuckDuckGo completely from the list).
 
 # Syntax explanation
 
