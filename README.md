@@ -21,6 +21,18 @@ To use it in conjuction with Arkenfox, append the contents of `annoyances.js` to
 
 Contributions, criticsm and suggestions are welcome! Feel free to open issues or pull requests to discuss additions, changes and removals.
 
+# Additional recommendations
+These recommendations let you disable more parts of Machine Learning inside the browser. They cannot be included in the project due to technical complexity and incompatibility, but you can do them manually.
+
+- Go to Firefox settings -> Search (or type `about:preferences#search` in the address bar).
+  - Remove Perplexity as a search provider. Perplexity is an AI-powered search engine: https://blog.mozilla.org/en/firefox/firefox-144/
+  - Switch your default search engine to DuckDuckGo without AI.
+    - Click at the bottom to "Add" a new search engine, then fill the pop-up with:
+      - Search engine name: `DuckDuckGo (no AI)`
+      - URL with %s: `https://noai.duckduckgo.com/?q=%s`
+      - Keyword: `@duckduckgo, @ddg, @ddgnoai`
+    - Then, scroll up and set it as your default search engine. Be sure to untick the blue check mark of normal DDG to avoid confusion (you can also remove normal DDG completely).
+
 # Syntax explanation
 
 ```javascript
